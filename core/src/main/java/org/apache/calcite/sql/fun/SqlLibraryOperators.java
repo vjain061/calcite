@@ -309,7 +309,7 @@ public abstract class SqlLibraryOperators {
 
   @LibraryOperator(libraries = {ORACLE})
   public static final SqlFunction CHR =
-      new SqlFunction("CHR ",
+      new SqlFunction("CHR",
           SqlKind.OTHER_FUNCTION,
           ReturnTypes.CHAR,
           null,
